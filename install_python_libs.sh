@@ -1,16 +1,19 @@
-rem activate python env
-# windows
-# .\activate_python_env.cmd
-# Linux
+# activate python env
+# Tbv Windows machine met mingw64
+source /c/tmp/cx1964ReposGraphics/env_python3_graphics/Scripts/activate
+
+# Linux 
 source ./env_python3_graphics/bin/activate
 
-rem upgrade pip
+
+# upgrade pip uitvoeren in Linux shell of Windows machine met mingw64
 python -m pip install --upgrade pip
 
-rem install benodigde python libraries
+# install benodigde python libraries
+# uitvoeren in Linux shell of Windows machine met mingw64
 pip install Matplotlib
 
-rem toon geinstalleerde python libraries
+# toon geinstalleerde python libraries
 pip list
 
 # remove a package
